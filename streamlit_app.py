@@ -18,7 +18,7 @@ ADVERBS = ["가끔씩", "문득", "조용히", "왠지 모르게", "아주 희�
 def generate_inspiration():
     # 각 목록에서 무작위로 하나의 요소를 선택하여 조합
     prompt = {
-        "주제 구절": random.choice(SUBJECTS),
+        "주제 구절": random.choice(SUBJECㄹTS),
         "핵심 대상": random.choice(OBJECTS),
         "느낌": random.choice(EMOTIONS),
         "움직임": random.choice(ADVERBS) + " " + random.choice(ACTIONS),
